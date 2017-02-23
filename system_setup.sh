@@ -16,12 +16,17 @@ function agf {
 }
 
 # List of packages to install
-packageList=( git \
+packageList=( build-essential \ 
+              git \
               python3 \
               python3-dev \
               python3-pip \
+              swig \
               gedit \
-              vim )
+              vim
+              terminator \
+              openjdk-8-jdk \
+              libcurl3-dev )
 
 
 for p in "${packageList[@]}"
